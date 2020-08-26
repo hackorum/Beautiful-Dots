@@ -13,6 +13,7 @@ function draw() {
   x=random(0,windowWidth);
   y=random(0,windowHeight);
   fill(r,g,b,a);
+  noStroke();
   circle(x,y,30);
 }
 
